@@ -31,3 +31,24 @@ puts die2
 total = die1 + die2
 puts "The total is: #{total}"
 
+#4. check the total and display the outcome
+#if the total is 7,11 
+#   puts "you win"
+#elsif the total is ... 2,3,12
+#    puts "you lose"
+# else
+#     puts "the point is #{total}"
+#end
+# outline the steps that need to be taken - think about what and how you want to acknowledge
+# Watch this part of the lecture
+if total == 7 || total == 11
+  puts "you win!"
+elsif total ==2 || total ==3 || total ==12
+puts "you lose"
+else
+  puts "the point is #{total}"
+end 
+
+#can give criteria to test code - this is nondeterministic code 
+#ai code isn't guaranteed - can do automated tests
+#can test if the code is right, can also test/verify that the early code still works and that no regression has occured 

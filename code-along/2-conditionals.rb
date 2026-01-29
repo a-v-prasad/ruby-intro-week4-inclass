@@ -52,7 +52,7 @@ false
 
 # Combining Expressions
 
-temp = 31
+temp = 90
 condition = "sunny"
 
 if temp > 29 &&  condition == "sunny"
