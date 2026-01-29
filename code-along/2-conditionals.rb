@@ -4,8 +4,8 @@
 #test puts "hi"
 
 # Booleans
-true
-false
+# true
+# false
 
 # Boolean Expressions
 # puts 3>2 
